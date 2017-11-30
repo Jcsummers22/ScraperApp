@@ -37,3 +37,5 @@ var Comment = mongoose.model("Comment", CommentSchema);
 
 // Export the model
 module.exports = Comment;
+
+//Modue export threw error. Correct when you can 
