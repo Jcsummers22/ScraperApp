@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcprice12/news_scraper.git"
+    "url": "https://jcsummers22.github.io/ScraperApp/"
   },
   "keywords": [
     "Mongo",
@@ -20,9 +20,9 @@
   "author": "Jason Summers",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jcprice12/news_scraper/issues"
+    "url": "https://jcsummers22.github.io/ScraperApp/"
   },
-  "homepage": "https://github.com/jcprice12/news_scraper#readme",
+  "homepage": "https://github.com/Jcsummers22/ScraperApp",
   "dependencies": {
     "body-parser": "^1.18.2",
     "cheerio": "^1.0.0-rc.2",
