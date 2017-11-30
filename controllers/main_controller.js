@@ -168,7 +168,7 @@ router.delete("/comment/:id", function(req, res){
     });
 });
 
-// router.put("/comment/:id", function(req, res){
+/*router.put("/comment/:id", function(req, res){
 //     Comment.findOne({_id : req.params.id}, function(err, comment){
 //         if(err){
 //             console.log(err);
@@ -186,7 +186,7 @@ router.delete("/comment/:id", function(req, res){
 //         }
 //     });
 // });
-
+*/
 router.get("/", function(req, res) {
     Post.find({interesting: false}, function(error, articles){
         if(error){
@@ -202,3 +202,5 @@ router.get("/", function(req, res) {
 });
 
 module.exports = router;
+
+// ID in reference to article ID
